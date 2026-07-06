@@ -19,7 +19,7 @@ export default function Hero() {
     };
 
     return (
-        <section className="flex flex-col gap-4 px-8 py-20">
+        <section id="home" className="flex flex-col gap-4 px-8 py-20">
             <h1 className="text-4xl font-bold">
                 {profile.name}
             </h1>

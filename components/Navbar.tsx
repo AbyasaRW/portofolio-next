@@ -1,4 +1,3 @@
-// components/Navbar.tsx
 export default function Navbar() {
     const navItems = [
         { label: "Home", href: "#home" },
@@ -10,7 +9,7 @@ export default function Navbar() {
 
     return (
         <nav className="flex justify-between items-center px-8 py-4">
-            <h1 className="text-2xl font-bold">Abyasa.</h1>
+            <h1 className="text-2xl font-bold">Abyasa Biodata</h1>
 
             <ul className="flex gap-8">
                 {navItems.map((item) => (
