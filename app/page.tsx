@@ -4,6 +4,7 @@ import Projects from "@/components/Projects";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function halamanUtama() {
   return (
@@ -14,6 +15,7 @@ export default function halamanUtama() {
       <Projects />
       <Experience />
       <Contact />
+      <Footer />
     </main>
   );
 
