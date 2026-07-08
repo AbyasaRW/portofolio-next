@@ -1,10 +1,12 @@
 import profile from "@/data/profile";
+import FadeIn from "./FadeIn";
 
 export default function Experience() {
     return (
         <section id="experience" className="px-8 py-20">
             <h2 className="text-3xl font-bold mb-10">Experience</h2>
 
+            <FadeIn delay={0.1}>
             <div className="flex flex-col gap-10">
                 {profile.experience.map((exp) => (
                     <div key={exp.role + exp.period} className="flex flex-col gap-2">
@@ -23,6 +25,7 @@ export default function Experience() {
                     </div>
                 ))}
             </div>
+            </FadeIn>
         </section>
     );
 }

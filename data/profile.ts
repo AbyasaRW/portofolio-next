@@ -36,41 +36,41 @@ const profile = {
 
   projects: [
     {
-      title: "Nexa Projects — Company Profile & Jasa Web",
-      stack: "HTML, CSS, JavaScript",
-      description:
-        "Membangun website company profile untuk layanan jasa pembuatan website, dilengkapi halaman portofolio dan informasi layanan.",
-      link: "https://nexaprojects.netlify.app/",
+        title: "Sistem Pemesanan Online Pitstop Vape",
+        stack: "PHP, MySQL, HTML, CSS",
+        description: "Website pemesanan online dan katalog produk vape dengan fitur manajemen produk, pemesanan pelanggan, serta pengelolaan data berbasis MySQL. Antarmuka responsif dan mudah digunakan.",
+        link: "https://pitstopvape.netlify.app/",
+        image: "/projects/pitstop-vape.png",
     },
     {
-      title: "Sistem Pemesanan Online Pitstop Vape",
-      stack: "PHP, MySQL, HTML, CSS",
-      description:
-        "Website pemesanan online dan katalog produk vape dengan fitur manajemen produk, pemesanan pelanggan, serta pengelolaan data berbasis MySQL. Antarmuka responsif dan mudah digunakan.",
-      link: "https://pitstopvape.netlify.app/",
+        title: "Desain UI Website Top Up MLBB",
+        stack: "Figma",
+        description: "Prototype UI website top up Mobile Legends dengan fitur pembelian diamond, pilihan nominal, metode pembayaran, dan riwayat transaksi. Alur navigasi intuitif dari pemilihan produk hingga konfirmasi.",
+        link: "https://www.figma.com/proto/fRhtF3jEL9VQ5EYerpOSFW/NOIRPEDIA?node-id=92-2961",
+        image: "/projects/mlbb-topup.png",
     },
     {
-      title: "Desain UI Website Top Up MLBB",
-      stack: "Figma",
-      description:
-        "Prototype UI website top up Mobile Legends dengan fitur pembelian diamond, pilihan nominal, metode pembayaran, dan riwayat transaksi. Alur navigasi intuitif dari pemilihan produk hingga konfirmasi.",
-      link: "https://www.figma.com/proto/fRhtF3jEL9VQ5EYerpOSFW/NOIRPEDIA?node-id=92-2961",
+        title: "Nexa Projects — Company Profile & Jasa Web",
+        stack: "HTML, CSS, JavaScript",
+        description: "Membangun website company profile untuk layanan jasa pembuatan website, dilengkapi halaman portofolio dan informasi layanan.",
+        link: "https://nexaprojects.netlify.app/",
+        image: "/projects/nexa.png",
     },
     {
-      title: "Desain UI Sistem Pemesanan Lapangan Olahraga",
-      stack: "Figma",
-      description:
-        "Prototype UI aplikasi booking lapangan olahraga, mencakup alur reservasi, pemilihan jadwal, dan halaman konfirmasi.",
-      link: "https://www.figma.com/proto/JOpUtmbQg0ZCQw0VHWKBQt/SIBOLANG-JIR",
+        title: "Desain UI Sistem Pemesanan Lapangan Olahraga",
+        stack: "Figma",
+        description: "Prototype UI aplikasi booking lapangan olahraga, mencakup alur reservasi, pemilihan jadwal, dan halaman konfirmasi.",
+        link: "https://www.figma.com/proto/JOpUtmbQg0ZCQw0VHWKBQt/SIBOLANG-JIR",
+        image: "/projects/sibolang.png",
     },
     {
-      title: "Simulasi Jaringan Arena Esports",
-      stack: "GNS3",
-      description:
-        "Merancang dan mensimulasikan topologi jaringan arena esports dengan 3 zona dinamis (gaming, streaming, broadcast) dan 1 area pengawasan CCTV.",
-      link: null,
+        title: "Simulasi Jaringan Arena Esports",
+        stack: "GNS3",
+        description: "Merancang dan mensimulasikan topologi jaringan arena esports dengan 3 zona dinamis (gaming, streaming, broadcast) dan 1 area pengawasan CCTV.",
+        link: null,
+        image: null,
     },
-  ],
+],
 
   experience: [
     {

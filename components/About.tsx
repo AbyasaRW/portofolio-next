@@ -1,13 +1,17 @@
 import profile from "@/data/profile";
+import FadeIn from "./FadeIn";
 
 export default function About() {
     return (
         <section id="about" className="px-8 py-20 flex flex-col gap-12">
+            <FadeIn>
             <div>
                 <h2 className="text-3xl font-bold mb-4">About Me</h2>
                 <p className="text-gray-400 max-w-2xl">{profile.summary}</p>
             </div>
+            </FadeIn>
 
+            <FadeIn delay={0.2}>
             <div>
                 <h3 className="text-xl font-semibold mb-4">Pendidikan</h3>
                 <div className="flex flex-col gap-4">
@@ -21,7 +25,8 @@ export default function About() {
                     ))}
                 </div>
             </div>
-
+            </FadeIn>
+            <FadeIn delay={0.3}>
             <div>
                 <h3 className="text-xl font-semibold mb-4">Keahlian</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -31,7 +36,9 @@ export default function About() {
                     <SkillGroup title="Soft Skills" items={profile.skills.soft} />
                 </div>
             </div>
+            </FadeIn>
 
+            <FadeIn delay={0.4}>
             <div>
                 <h3 className="text-xl font-semibold mb-4">Sertifikasi</h3>
                 <div className="flex flex-col gap-2">
@@ -42,6 +49,7 @@ export default function About() {
                     ))}
                 </div>
             </div>
+            </FadeIn>
         </section>
     );
 }

@@ -2,6 +2,7 @@
 
 import profile from "@/data/profile";
 import Button from "./Button";
+import FadeIn from "./FadeIn";
 
 export default function Hero() {
     const handleClick = (type: string) => {
@@ -20,6 +21,7 @@ export default function Hero() {
 
     return (
         <section id="home" className="flex flex-col gap-4 px-8 py-20">
+            <FadeIn delay={0.2}>
             <h1 className="text-4xl font-bold">
                 {profile.name}
             </h1>
@@ -37,6 +39,7 @@ export default function Hero() {
                     />
                 ))}
             </div>
+            </FadeIn>
         </section>
     );
 }
