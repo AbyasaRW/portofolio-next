@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 
 export default function halamanUtama() {
   return (
-    <main>
+    <main className="relative bg-transparent">
       <Navbar />
       <Hero />
       <About />
@@ -18,5 +18,4 @@ export default function halamanUtama() {
       <Footer />
     </main>
   );
-
 }
